@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width , initial-scale=1.0" />
+    <title>My Blog</title>
+    <link href="style.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+    <nav class="navbar">
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#posts">Blog Posts</a></li>
+            <li><a href="#contact_us">contact</a></li>
+        </ul>
+    </nav>
+    <div class="main-container">
+        <div id="#posts">
+            <h2 style="text-align: center; margin: 0px;">Blog List</h2>
+            <ul>
+                <li><a href="#post1">Post Title 1</a></li>
+                <li><a href="#post2">Post Title 2</a></li>
+                <li><a href="#post3">Post Title 3</a></li>
+            </ul>
+        </div>
+
+        <div id="post1" class="post-card">
+            <h3 class="post-title">Post Title 1</h3>
+            <address>By John Doe</address>
+            <time datetime="2024-12-01">December 1, 2024</time>
+            <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer necodio. Praesent libero.
+            </p>
+            <img class="post-image" src="https://cdn.sprints.ai/files/171681651966548a87bcfdd-Platform%20Logo.svg"
+                alt="sprints logo" style="width: 300px; height: auto;" />
+            <p>For more Details, visit <a href="#" target="_top">the link</a></p>
+            <h4>Key Points:</h4>
+            <ul>
+                <li>Introduction to the topic</li>
+                <li>Key insights</li>
+                <li>Conclusion</li>
+            </ul>
+        </div>
+
+        <div id="post2" class="post-card">
+            <h3 class="post-title">Post Title 2</h3>
+            <address>By John Smith</address>
+            <time datetime="2024-11-25">November 25, 2024</time>
+            <p>
+                Sed cursus ante dapibus diam. Sed nisi. Nulla quis sem at nibh elementum imperdiet.
+            </p>
+            <img class="post-image" src="https://cdn.sprints.ai/files/171681651966548a87bcfdd-Platform%20Logo.svg"
+                alt="sprints logo" style="width: 300px; height: auto;" />
+            <p>Find out more at <a href="#" target="_self">this resource.</a></p>
+            <h4>Important Topics</h4>
+            <ol>
+                <li>Background</li>
+                <li>Analysis</li>
+                <li>Future Directions</li>
+            </ol>
+        </div>
+        <div id="post3" class="post-card">
+            <h3 class="post-title">Post Title 3</h3>
+            <address>By Alex Brown</address>
+            <time datetime="2024-11-18">November 18, 2024</time>
+            <p>
+                Donec lacinia congue felis in faucibus. Cras ultricies mi eu turpis hendrerit fringilla. </p>
+            </p>
+            <img class="post-image" src="https://cdn.sprints.ai/files/171681651966548a87bcfdd-Platform%20Logo.svg"
+                alt="sprints logo" style="width: 300px; height: auto;" />
+            <p>Learn more at <a href="#" target="_blank">this Link.</a></p>
+            <h4>Takeaways:</h4>
+            <ul>
+                <li>Lesson 1</li>
+                <li>Lesson 2</li>
+                <li>Lesson 3</li>
+            </ul>
+        </div>
+    </div>
+    <footer>
+        <div id="contact_us" class="contact-us-container">
+            <form>
+                <div class="contact-us-card">
+                    <input type="text" style="margin-top: 5px;" name="name" placeholder="Your Name" required>
+                    <input type="email" name="email" placeholder="Your Email" required>
+                    <textarea name="message" placeholder="Your Message" required></textarea>
+                    <button type="submit">Send Message</button>
+                </div>
+            </form>
+
+        </div>
+        <div id="contact_info" class="contact-info">
+            <h3>Contact Info</h3>
+            <table>
+                <tr>
+                    <th>Day</th>
+                    <th>Opening Time</th>
+                    <th>Closing Time</th>
+                </tr>
+                <tr>
+                    <td>Monday</td>
+                    <td>9:00 AM</td>
+                    <td>5:00 PM</td>
+                </tr>
+                <tr>
+                    <td>Tuesday</td>
+                    <td>9:00 AM</td>
+                    <td>5:00 PM</td>
+                </tr>
+                <tr>
+                    <td>Wednesday</td>
+                    <td>9:00 AM</td>
+                    <td>5:00 PM</td>
+                </tr>
+            </table>
+        </div>
+        <p class="footer-note">For further inquiries, you can also email us at <a
+                href="mailto:info@myblog.com">info@myblog.com</a></p>
+    </footer>
+
+
+</body>
+
+</html>

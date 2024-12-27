@@ -1,0 +1,121 @@
+body {
+    margin: 0px;
+    padding: 0px;
+}
+
+.navbar {
+    background-color: #333;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    height: 100px;
+}
+
+.navbar>ul {
+    list-style: none;
+    display: flex;
+    gap: 20px
+}
+
+.navbar a {
+    text-decoration: none;
+    color: white;
+}
+
+.main-container {
+    background-color: gainsboro;
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+
+.post-card {
+    background-color: whitesmoke;
+    margin-top: 10px;
+    margin-left: 150px;
+    margin-right: 150px;
+    padding: 5px;
+    padding-left: 20px;
+    border: 1px solid lightgray;
+}
+
+.post-title {
+    text-align: center;
+}
+
+.post-image {
+    margin: auto;
+    display: block;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+}
+
+.contact-us-container {
+    background: #333;
+    color: #fff;
+    padding: 30px;
+    text-align: center;
+}
+
+.contact-us-card {
+    background-color: whitesmoke;
+    max-width: 50%;
+    margin: 0 auto;
+    margin-top: 5px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    border: 1px solid lightgray;
+}
+
+.contact-us-card input,
+.contact-us-card textarea {
+    padding: 10px;
+    margin-inline: 15px;
+    border: none;
+    border-radius: 5px;
+}
+
+.contact-us-card textarea {
+    height: 100px;
+}
+
+.contact-us-card button {
+    padding: 10px;
+    background: #333;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    margin: 10px;
+}
+
+
+.contact-info {
+    padding: 0px;
+    text-align: center;
+}
+
+.contact-info table {
+    width: 100%;
+    border-collapse: collapse;
+    text-align: left;
+}
+
+.contact-info table th,
+.contact-info table td {
+    border: 1px solid #ddd;
+    padding: 10px;
+}
+
+.contact-info table th {
+    color: #fff;
+}
+
+.footer-note {
+    text-align: center;
+    margin-bottom: 0px;
+    padding: 5px
+}
